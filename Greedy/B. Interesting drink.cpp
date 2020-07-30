@@ -75,3 +75,36 @@ int main()
         cout<<binarySearch(prices,target)<<endl;
     }
 }
+/*
+dp approach without sorting:
+(not feasible for large #input queries)
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    long long num_shops;
+    cin>>num_shops;
+    vector<long long>prices(num_shops);
+    unordered_map<long long,long long>count;
+    for(long long i=0;i<num_shops;i++)
+    {
+        cin>>prices[i];
+        count[prices[i]]++;
+    }
+    vector<unsigned long long>dp(100001);
+    dp[0]=count[0];
+    for(long long i=1;i<100001;i++)
+    {
+        dp[i]=dp[i-1]+count[i];
+    }
+    long long days;
+    cin>>days;
+    vector<long long>money(days);
+    for(long long i=0;i<days;i++)
+    {
+        cin>>money[i];
+        cout<<dp[money[i]]<<endl;
+    }
+}
+*/
