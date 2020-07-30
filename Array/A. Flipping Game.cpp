@@ -21,11 +21,19 @@ input:
 1 0 0 1 0
 output:
 4
+
 input:
 4
 1 0 0 1
 output:
 4
+
+input:
+8
+1 0 0 0 1 0 0 0
+output:
+7
+
 Note
 In the first case, flip the segment from 2 to 5 (i=2,j=5).
 That flip changes the sequence, it becomes: [1 1 1 0 1]. So, it contains four ones. There is no way to make the whole sequence equal to [1 1 1 1 1].
