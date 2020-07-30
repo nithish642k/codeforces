@@ -6,7 +6,7 @@ After the cutting the number of ribbon pieces should be maximum.
 Help Polycarpus and find the number of ribbon pieces after the required cutting.
 
 Input
-The first line contains four space-separated integers n, a, b and c (1≤=n,a,b,c≤=4000) — the length of the original ribbon
+The first line contains four space-separated integers n, a, b and c (1≤n,a,b,c≤4000) — the length of the original ribbon
 and the acceptable lengths of the ribbon pieces after the cutting, correspondingly. The numbers a, b and c can coincide.
 
 Output
