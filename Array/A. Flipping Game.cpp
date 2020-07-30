@@ -16,15 +16,15 @@ Output
 Print an integer — the maximal number of 1s that can be obtained after exactly one move.
 
 Examples
-inputCopy
+input:
 5
 1 0 0 1 0
-outputCopy
+output:
 4
-inputCopy
+input:
 4
 1 0 0 1
-outputCopy
+output:
 4
 Note
 In the first case, flip the segment from 2 to 5 (i=2,j=5).
