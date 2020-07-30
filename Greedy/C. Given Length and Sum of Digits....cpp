@@ -43,7 +43,7 @@ int main()
     string maxi;
     for(int i=0;i<m;i++)
     {
-        int d=min(9,s);
+        int d=min(9,s);// for every position,we try to fill it with the maximum digit '9' if possible,otherwise the remainder
         maxi+=d+'0';
         s-=d;
     }
