@@ -54,12 +54,12 @@ int main()
     {
         cin>>nums[i];
     }
-    unordered_map<int,int>freq;
+    unordered_set<int>s;
     vector<int>dp(n);
     for(int i=n-1;i>=0;i--)
     {
-        freq[nums[i]]++;
-        dp[i]=freq.size();
+        s.insert(nums[i]);
+        dp[i]=s.size();
     }
     int x;
     for(int i=0;i<q;i++)
