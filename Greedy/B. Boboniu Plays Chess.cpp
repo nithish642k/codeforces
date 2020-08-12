@@ -20,7 +20,7 @@ The only line of the input contains four integers n, m, Sx and Sy (3≤n,m≤100
 the number of rows, the number of columns, and the initial position of your chess piece, respectively.
 
 Output
-You should print n⋅m lines.
+You should print nm lines.
 
 The i-th line should contain two integers xi and yi (1≤xi≤n, 1≤yi≤m), denoting the i-th cell that you visited.
 You should print exactly nm pairs (xi,yi), they should cover all possible pairs (xi,yi), such that 1≤xi≤n, 1≤yi≤m.
